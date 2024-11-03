@@ -8,6 +8,8 @@ The controls are simple:
   Point and click left on your mouse where you want to shoot arrows
   Right click to throw bombs
   Space key to dash
+
+  The game file is in the 'HACKNC_Game_Folder'
   
   Enjoy!
 
