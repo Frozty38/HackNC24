@@ -14,6 +14,7 @@
     {"$GMFolder":"","%Name":"Entity","folderPath":"folders/Entity.yy","name":"Entity","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Enemy","folderPath":"folders/Entity/Enemy.yy","name":"Enemy","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Player","folderPath":"folders/Entity/Player.yy","name":"Player","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"Fonts","folderPath":"folders/Fonts.yy","name":"Fonts","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Objects","folderPath":"folders/Objects.yy","name":"Objects","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Rooms","folderPath":"folders/Rooms.yy","name":"Rooms","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Scripts","folderPath":"folders/Scripts.yy","name":"Scripts","resourceType":"GMFolder","resourceVersion":"2.0",},
@@ -30,6 +31,7 @@
   },
   "name":"HACKNC24 Project",
   "resources":[
+    {"id":{"name":"fnt_menu","path":"fonts/fnt_menu/fnt_menu.yy",},},
     {"id":{"name":"o_arrow_explode","path":"objects/o_arrow_explode/o_arrow_explode.yy",},},
     {"id":{"name":"o_arrow","path":"objects/o_arrow/o_arrow.yy",},},
     {"id":{"name":"o_bomb","path":"objects/o_bomb/o_bomb.yy",},},
@@ -46,7 +48,7 @@
     {"id":{"name":"o_menu","path":"objects/o_menu/o_menu.yy",},},
     {"id":{"name":"o_player","path":"objects/o_player/o_player.yy",},},
     {"id":{"name":"o_solid","path":"objects/o_solid/o_solid.yy",},},
-    {"id":{"name":"r_menu","path":"rooms/r_menu/r_menu.yy",},},
+    {"id":{"name":"Room0","path":"rooms/Room0/Room0.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"id":{"name":"enemy_processes","path":"scripts/enemy_processes/enemy_processes.yy",},},
     {"id":{"name":"entity_processes","path":"scripts/entity_processes/entity_processes.yy",},},
@@ -99,7 +101,7 @@
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
-    {"roomId":{"name":"r_menu","path":"rooms/r_menu/r_menu.yy",},},
+    {"roomId":{"name":"Room0","path":"rooms/Room0/Room0.yy",},},
     {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
   ],
   "templateType":"game",

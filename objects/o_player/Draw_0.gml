@@ -1,4 +1,4 @@
-/// @description Insert description here
+/// @description Insert descrdiption here
 // You can write your code in this editor
 
 //Draw the dash anim
