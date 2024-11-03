@@ -13,6 +13,7 @@ switch(state)
 		check_for_player();
 		check_facing();
 		if path_index == -1 state = states.IDLE;
+		check_dust();
 		enemy_anim();
 	break;
 	
@@ -25,11 +26,13 @@ switch(state)
 	
 	case states.KNOCKBACK:
 		calc_lnockback_movement();
+		check_dust();
 		enemy_anim();
 	break;
 	
 	case states.DEAD:
 		calc_entity_movement();
+		check_dust();
 		enemy_anim();
 	break;
 }

@@ -128,6 +128,10 @@ function anim()
 	}
 	
 	depth = -bbox_bottom;	
+	
+	//update previous position
+	xp = x;
+	yp = y;
 
 }
 
@@ -151,6 +155,9 @@ function check_fire()
 					image_angle = _dir;
 					owner_id = other;
 				}
+				
+				audio_play_sound(snd_bow_fire, 50, 0, 1, 0, random_range(0.6, 1.4))
+				
 			}
 		}
 }

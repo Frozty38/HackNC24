@@ -30,3 +30,4 @@ can_dash = true;
 dash_cooldown = 120;
 dash_timer_initial = 15;
 dash_timer = dash_timer_initial;
+

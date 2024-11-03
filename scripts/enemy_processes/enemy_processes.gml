@@ -52,7 +52,13 @@ function check_for_player()
 	if (_dis <= (alert_dis) or alert) and _dis > attack_dis
 	{
 		//Enemy is now alert
+		if alert == false
+		{
+			var _snd = choose(snd_enemy_alert_01, snd_enemy_alert_02, snd_enemy_alert_03);
+			audio_play_sound(_snd, 50, 0, 1, 0, 1);
+		}
 		alert = true;
+		
 		
 		//Checking if we should calc our path
 		if calc_path_timer-- <= 0
@@ -136,6 +142,8 @@ function perform_attack()
 		_inst.owner_id = id;
 		_inst.damage = damage;
 		_inst.knockback_time = knockback_time;
+		var _snd = choose(snd_enemy_attack_01, snd_enemy_attack_02, snd_enemy_attack_03);
+		audio_play_sound(_snd, 50, 0, 1, 0, 1);
 	}
 }
 

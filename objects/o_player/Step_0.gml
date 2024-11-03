@@ -16,6 +16,8 @@ switch(state)
 		check_fire();
 		
 		check_bomb();
+		
+		check_dust();
 
 		anim();
 		
@@ -36,6 +38,7 @@ switch(state)
 			image_index = 2;
 		}
 		aim_bow();
+		check_dust();
 		anim();
 	break;
 	
@@ -48,6 +51,8 @@ switch(state)
 		aim_bow();
 		
 		if knockback_time-- <= 0 state = states.IDLE;
+		
+		check_dust();
 
 		anim();
 		
@@ -61,6 +66,8 @@ switch(state)
 		calc_movement();
 		
 		if ready_to_restart and mouse_check_button_pressed(mb_left) game_restart();
+
+		check_dust();
 
 		anim();
 	break;

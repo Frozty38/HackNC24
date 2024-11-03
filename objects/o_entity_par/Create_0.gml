@@ -19,3 +19,7 @@ flash_initial = 16;
 flash = flash_initial / 2;
 show_flash_initial = 4;
 show_flash = show_flash_initial;
+
+//dust
+create_dust_timer_initial = 8;
+create_dust_timer = 0;

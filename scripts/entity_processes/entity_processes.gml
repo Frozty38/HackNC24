@@ -27,6 +27,9 @@ function damage_entity(_tid, _sid, _damage, _time)
 		alarm[HURT] = hurt_time;
 		
 		if !_dead state = states.KNOCKBACK;
+		image_index = 0;
+		var _inst = instance_create_layer(x, y, "Arrow", o_hit)
+		_inst.depth = -room_height;
 		return _dead;
 	}
 }
@@ -47,6 +50,7 @@ function is_dead()
 			{
 				default:
 					//play sound
+					audio_play_sound(snd_enemy_die, 50, 0, 1, 0, random_range(0.6, 1.4))
 				break;
 				case o_player:
 					if instance_exists(my_bow) instance_destroy(my_bow);
@@ -71,5 +75,27 @@ function show_healthbar()
 	if hp != hp_max and hp > 0
 	{
 		draw_healthbar(x - 7, y - 16, x + 7, y - 14, hp / hp_max * 100, $003300, $3232FF, $00B200, 0, 1, 1); 	
+	}
+}
+
+function check_dust()
+{
+	//@desc Create the dust when the dust timer is zero
+	
+	//decrease our timer by 1 and check if we should create dust this step
+	if create_dust_timer-- <= 0 
+	{
+		//Set timer for next time
+		create_dust_timer = create_dust_timer_initial;
+		
+		//only create dust if we are moving
+		if x != xp or y != yprevious
+		{
+			var _num = instance_number(o_dust);
+			if _num < 100 or object_index == o_player
+			{
+				instance_create_layer(x + random_range(-4, 4), bbox_bottom + random_range(-3, 3), "Player", o_dust);	
+			}
+		}
 	}
 }
