@@ -11,3 +11,4 @@ The controls are simple:
   
   Enjoy!
 
+  Assets pulled from the youtube channel, Slyddar. He provides free assets and sound effects for use in the project.
