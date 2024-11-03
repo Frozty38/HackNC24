@@ -9,7 +9,7 @@ The controls are simple:
   Right click to throw bombs
   Space key to dash
 
-  The game file is in the 'HACKNC_Game_Folder'
+  The game file is in the folder titled, 'HACKNC_Game_Folder'
   
   Enjoy!
 
