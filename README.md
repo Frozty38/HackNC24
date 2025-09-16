@@ -1,5 +1,5 @@
 # HackNC24
-I am currently a first semester freshman at ECU and I followed online tutorials to make this project. 
+I made this as a freshman computer science student at ECU while attending HackNC. In order to download, download the whole project, unzip the folder, then enter the HACKNC24_Game_Folder and open the application to play!
 
 This game features bow combat vs hordes of enemies. Every time you die or choose to restart (By pressing 'R') the enemies will spawn in random locations. It is a fun little dungeon crawler that lets you go around and kill fun little enemies.
 
