@@ -15,3 +15,6 @@ The controls are simple:
   Enjoy!
 
   Assets pulled from the youtube channel, Slyddar. He provides free assets and sound effects for use in the project.
+
+
+  (Transferred to zacharyz1234 account for ownership. Frozty38 account was made with a school email while in a rush to submit)
