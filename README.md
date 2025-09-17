@@ -1,6 +1,8 @@
 # HackNC24
 I made this as a freshman computer science student at ECU while attending HackNC. In order to download, download the whole project, unzip the folder, then enter the HACKNC24_Game_Folder and open the application to play!
 
+Small portfolio and trailer on the devpost page: https://devpost.com/software/hacknc24-minigame
+
 This game features bow combat vs hordes of enemies. Every time you die or choose to restart (By pressing 'R') the enemies will spawn in random locations. It is a fun little dungeon crawler that lets you go around and kill fun little enemies.
 
 The controls are simple:
